@@ -1,0 +1,132 @@
+PCBNEW-LibModule-V1  25/10/2013 3:35:20 PM
+# encoding utf-8
+Units mm
+$INDEX
+1pin
+_MP_MountingHole
+_MP_XbeeTH10Pin
+$EndINDEX
+$MODULE 1pin
+Po 0 0 0 15 00200000 00000000 ~~
+Li 1pin
+Cd module 1 pin (ou trou mecanique de percage)
+Kw DEV
+Sc 0
+AR 1pin
+Op 0 0 0
+T0 0 -3.048 1.016 1.016 0 0.254 N V 21 N "1PIN"
+T1 0 2.794 1.016 1.016 0 0.254 N I 21 N "P***"
+DC 0 0 0 -2.286 0.381 21
+$PAD
+Sh "1" C 4.064 4.064 0 0 0
+Dr 3.048 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE 1pin
+$MODULE _MP_MountingHole
+Po 0 0 0 15 5269F118 00000000 ~~
+Li _MP_MountingHole
+Cd module 1 pin (ou trou mecanique de percage)
+Kw DEV
+Sc 0
+AR 1pin
+Op 0 0 0
+T0 0 -3.048 1.016 1.016 0 0.254 N I 21 N "1PIN"
+T1 0 2.794 1.016 1.016 0 0.254 N I 21 N "P***"
+DC 0 0 0 -2.286 0.381 21
+$PAD
+Sh "1" C 3 3 0 0 0
+Dr 3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+.LocalClearance 1
+$EndPAD
+$EndMODULE _MP_MountingHole
+$MODULE _MP_XbeeTH10Pin
+Po 0 0 0 15 5269F504 00000000 ~~
+Li _MP_XbeeTH10Pin
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -11.47 1 1 0 0.15 N I 21 N "REF**"
+T1 0 11.57 1 1 0 0.15 N I 21 N "VAL**"
+DS -1.2 -8 1.2 -8 0.15 21
+DS 1.2 -10.25 1.2 10.25 0.15 21
+DS 1.2 10.25 -1.2 10.25 0.15 21
+DS -1.2 10.25 -1.2 -10.25 0.15 21
+DS -1.2 -10.25 1.2 -10.25 0.15 21
+$PAD
+Sh "1" C 1.85928 1.85928 0 0 0
+Dr 0.8128 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -9
+$EndPAD
+$PAD
+Sh "2" C 1.85928 1.85928 0 0 0
+Dr 0.8128 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -7
+$EndPAD
+$PAD
+Sh "3" C 1.85928 1.85928 0 0 0
+Dr 0.8128 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -5
+$EndPAD
+$PAD
+Sh "4" C 1.85928 1.85928 0 0 0
+Dr 0.8128 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -3
+$EndPAD
+$PAD
+Sh "5" C 1.85928 1.85928 0 0 0
+Dr 0.8128 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -1
+$EndPAD
+$PAD
+Sh "6" C 1.85928 1.85928 0 0 0
+Dr 0.8128 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 1
+$EndPAD
+$PAD
+Sh "7" C 1.85928 1.85928 0 0 0
+Dr 0.8128 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 3
+$EndPAD
+$PAD
+Sh "8" C 1.85928 1.85928 0 0 0
+Dr 0.8128 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 5
+$EndPAD
+$PAD
+Sh "9" C 1.85928 1.85928 0 0 0
+Dr 0.8128 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 7
+$EndPAD
+$PAD
+Sh "10" C 1.85928 1.85928 0 0 0
+Dr 0.8128 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 9
+$EndPAD
+$EndMODULE _MP_XbeeTH10Pin
+$EndLIBRARY
