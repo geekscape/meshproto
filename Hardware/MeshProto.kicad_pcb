@@ -2,11 +2,11 @@
 
   (general
     (links 36)
-    (no_connects 36)
-    (area 130.555134 96.9738 167.000422 130.4922)
+    (no_connects 3)
+    (area 130.555134 96.9738 167.283656 130.4922)
     (thickness 1.6)
-    (drawings 21)
-    (tracks 0)
+    (drawings 31)
+    (tracks 61)
     (zones 0)
     (modules 102)
     (nets 21)
@@ -137,6 +137,84 @@
     (add_net N-0000070)
     (add_net N-0000071)
     (add_net N-0000072)
+  )
+
+  (module _MUSB_XBee_Board_OUTLINE_ONLY (layer F.Cu) (tedit 52822244) (tstamp 5269EE4B)
+    (at 148.5 105.004)
+    (path /522EB270)
+    (fp_text reference U1 (at -6.35 7.62 90) (layer F.SilkS) hide
+      (effects (font (size 1.524 1.524) (thickness 0.3048)))
+    )
+    (fp_text value XBEE (at 4.445 11.43) (layer F.SilkS) hide
+      (effects (font (size 1.524 1.524) (thickness 0.3048)))
+    )
+    (fp_line (start -12.446 0) (end -12.446 -0.254) (layer F.SilkS) (width 0.381))
+    (fp_text user AD2 (at 9.825 4.0005 90) (layer F.SilkS) hide
+      (effects (font (size 0.45 0.45) (thickness 0.1125)))
+    )
+    (fp_text user AD3 (at 9.825 5.99948 90) (layer F.SilkS) hide
+      (effects (font (size 0.45 0.45) (thickness 0.1125)))
+    )
+    (fp_text user AD6 (at 9.825 8.13 90) (layer F.SilkS) hide
+      (effects (font (size 0.45 0.45) (thickness 0.1125)))
+    )
+    (fp_text user PE5 (at 9.825 11.99896 90) (layer F.SilkS) hide
+      (effects (font (size 0.45 0.45) (thickness 0.0875)))
+    )
+    (fp_text user AD4 (at 9.825 18.00098 90) (layer F.SilkS) hide
+      (effects (font (size 0.45 0.45) (thickness 0.0875)))
+    )
+    (fp_text user AD7 (at 9.825 15.99946 90) (layer F.SilkS) hide
+      (effects (font (size 0.45 0.45) (thickness 0.0875)))
+    )
+    (fp_text user MSI/SCL (at 9.825 14.00048 90) (layer F.SilkS) hide
+      (effects (font (size 0.35 0.35) (thickness 0.0875)))
+    )
+    (fp_text user AD5 (at 9.825 9.99998 90) (layer F.SilkS) hide
+      (effects (font (size 0.45 0.45) (thickness 0.075)))
+    )
+    (fp_text user AD1 (at 9.85 1.99898 90) (layer F.SilkS) hide
+      (effects (font (size 0.45 0.45) (thickness 0.075)))
+    )
+    (fp_text user AD0 (at 9.85 0 90) (layer F.SilkS) hide
+      (effects (font (size 0.45 0.45) (thickness 0.075)))
+    )
+    (fp_text user 3.3V (at -9.85 0 90) (layer F.SilkS) hide
+      (effects (font (size 0.5 0.5) (thickness 0.125)))
+    )
+    (fp_text user TX0 (at -9.85 1.99898 90) (layer F.SilkS) hide
+      (effects (font (size 0.45 0.45) (thickness 0.0875)))
+    )
+    (fp_text user RX0 (at -9.85 4.0005 90) (layer F.SilkS) hide
+      (effects (font (size 0.45 0.45) (thickness 0.0875)))
+    )
+    (fp_text user TX1 (at -9.85 5.99948 90) (layer F.SilkS) hide
+      (effects (font (size 0.45 0.45) (thickness 0.0875)))
+    )
+    (fp_text user ~RST (at -9.75 8.001 90) (layer F.SilkS) hide
+      (effects (font (size 0.45 0.45) (thickness 0.0875)))
+    )
+    (fp_text user RSSI (at -9.85 9.99998 90) (layer F.SilkS) hide
+      (effects (font (size 0.45 0.45) (thickness 0.0875)))
+    )
+    (fp_text user PWM1 (at -9.85 11.99896 90) (layer F.SilkS) hide
+      (effects (font (size 0.4 0.4) (thickness 0.0875)))
+    )
+    (fp_text user RX1 (at -9.85 14.00048 90) (layer F.SilkS) hide
+      (effects (font (size 0.45 0.45) (thickness 0.1125)))
+    )
+    (fp_text user DTR/SDA (at -9.85 15.99946 90) (layer F.SilkS) hide
+      (effects (font (size 0.35 0.35) (thickness 0.0875)))
+    )
+    (fp_text user GND (at -9.85 18.00098 90) (layer F.SilkS) hide
+      (effects (font (size 0.5 0.5) (thickness 0.125)))
+    )
+    (fp_line (start 12.446 0) (end 12.446 -0.254) (layer F.SilkS) (width 0.381))
+    (model Radio/Xbee_patch.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 270 0 0))
+    )
   )
 
   (module PIN_ARRAY_1   placed (layer F.Cu) (tedit 4E4E744E) (tstamp 52821811)
@@ -840,89 +918,6 @@
     (pad 10 thru_hole circle (at 0 9 180) (size 1.85928 1.85928) (drill 0.8128)
       (layers *.Cu *.Mask F.SilkS)
       (net 11 N-0000063)
-    )
-  )
-
-  (module _MUSB_XBee_Board_OUTLINE_ONLY (layer F.Cu) (tedit 5235BC75) (tstamp 5269EE4B)
-    (at 148.5 105.004)
-    (path /522EB270)
-    (fp_text reference U1 (at -6.35 7.62 90) (layer F.SilkS) hide
-      (effects (font (size 1.524 1.524) (thickness 0.3048)))
-    )
-    (fp_text value XBEE (at 4.445 11.43) (layer F.SilkS) hide
-      (effects (font (size 1.524 1.524) (thickness 0.3048)))
-    )
-    (fp_line (start -12.446 0) (end -12.446 -0.254) (layer F.SilkS) (width 0.381))
-    (fp_line (start -6.83 -5.1) (end -11 -1.5) (layer F.SilkS) (width 0.15))
-    (fp_line (start 6.84 -5.1) (end 10.82 -1.64) (layer F.SilkS) (width 0.15))
-    (fp_text user AD2 (at 9.825 4.0005 90) (layer F.SilkS) hide
-      (effects (font (size 0.45 0.45) (thickness 0.1125)))
-    )
-    (fp_text user AD3 (at 9.825 5.99948 90) (layer F.SilkS) hide
-      (effects (font (size 0.45 0.45) (thickness 0.1125)))
-    )
-    (fp_text user AD6 (at 9.825 8.13 90) (layer F.SilkS) hide
-      (effects (font (size 0.45 0.45) (thickness 0.1125)))
-    )
-    (fp_text user PE5 (at 9.825 11.99896 90) (layer F.SilkS) hide
-      (effects (font (size 0.45 0.45) (thickness 0.0875)))
-    )
-    (fp_text user AD4 (at 9.825 18.00098 90) (layer F.SilkS) hide
-      (effects (font (size 0.45 0.45) (thickness 0.0875)))
-    )
-    (fp_text user AD7 (at 9.825 15.99946 90) (layer F.SilkS) hide
-      (effects (font (size 0.45 0.45) (thickness 0.0875)))
-    )
-    (fp_text user MSI/SCL (at 9.825 14.00048 90) (layer F.SilkS) hide
-      (effects (font (size 0.35 0.35) (thickness 0.0875)))
-    )
-    (fp_text user AD5 (at 9.825 9.99998 90) (layer F.SilkS) hide
-      (effects (font (size 0.45 0.45) (thickness 0.075)))
-    )
-    (fp_text user AD1 (at 9.85 1.99898 90) (layer F.SilkS) hide
-      (effects (font (size 0.45 0.45) (thickness 0.075)))
-    )
-    (fp_text user AD0 (at 9.85 0 90) (layer F.SilkS) hide
-      (effects (font (size 0.45 0.45) (thickness 0.075)))
-    )
-    (fp_text user 3.3V (at -9.85 0 90) (layer F.SilkS) hide
-      (effects (font (size 0.5 0.5) (thickness 0.125)))
-    )
-    (fp_text user TX0 (at -9.85 1.99898 90) (layer F.SilkS) hide
-      (effects (font (size 0.45 0.45) (thickness 0.0875)))
-    )
-    (fp_text user RX0 (at -9.85 4.0005 90) (layer F.SilkS) hide
-      (effects (font (size 0.45 0.45) (thickness 0.0875)))
-    )
-    (fp_text user TX1 (at -9.85 5.99948 90) (layer F.SilkS) hide
-      (effects (font (size 0.45 0.45) (thickness 0.0875)))
-    )
-    (fp_text user ~RST (at -9.75 8.001 90) (layer F.SilkS) hide
-      (effects (font (size 0.45 0.45) (thickness 0.0875)))
-    )
-    (fp_text user RSSI (at -9.85 9.99998 90) (layer F.SilkS) hide
-      (effects (font (size 0.45 0.45) (thickness 0.0875)))
-    )
-    (fp_text user PWM1 (at -9.85 11.99896 90) (layer F.SilkS) hide
-      (effects (font (size 0.4 0.4) (thickness 0.0875)))
-    )
-    (fp_text user RX1 (at -9.85 14.00048 90) (layer F.SilkS) hide
-      (effects (font (size 0.45 0.45) (thickness 0.1125)))
-    )
-    (fp_text user DTR/SDA (at -9.85 15.99946 90) (layer F.SilkS) hide
-      (effects (font (size 0.35 0.35) (thickness 0.0875)))
-    )
-    (fp_text user GND (at -9.85 18.00098 90) (layer F.SilkS) hide
-      (effects (font (size 0.5 0.5) (thickness 0.125)))
-    )
-    (fp_line (start -12.446 19.558) (end -12.446 20.574) (layer F.SilkS) (width 0.381))
-    (fp_line (start 12.446 19.558) (end 12.446 20.574) (layer F.SilkS) (width 0.381))
-    (fp_line (start 12.446 0) (end 12.446 -0.254) (layer F.SilkS) (width 0.381))
-    (fp_line (start -12.446 20.574) (end 12.446 20.574) (layer F.SilkS) (width 0.381))
-    (model Radio/Xbee_patch.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 270 0 0))
     )
   )
 
@@ -2007,13 +2002,31 @@
     )
   )
 
+  (gr_text meshthing.com (at 162.052 113.538 90) (layer B.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
+  )
+  (gr_text "MeshProto v1.0\n© David Chanter, Bob Powers,\nAndy Gelme" (at 161.3408 117.5766 90) (layer F.SilkS)
+    (effects (font (size 0.5 0.5) (thickness 0.1)))
+  )
+  (gr_text ↑ (at 162.8394 107.4928) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_line (start 162.56 104.0638) (end 161.8742 104.0638) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 161.3662 104.5718) (end 161.8234 104.1146) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 161.3662 105.8418) (end 161.3662 104.5718) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 163.0426 105.8418) (end 161.3662 105.8418) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 163.0426 104.5464) (end 163.0426 105.8418) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 162.56 104.0638) (end 163.0426 104.5464) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_text "This\nWay\nUp" (at 161.6456 106.7562) (layer F.SilkS)
+    (effects (font (size 0.5 0.5) (thickness 0.1)))
+  )
   (gr_text GND (at 134.493 110.998) (layer F.SilkS)
     (effects (font (size 0.5 0.5) (thickness 0.1)))
   )
-  (gr_text BAT+ (at 134.62 104.902) (layer F.SilkS)
+  (gr_text 3v3 (at 134.62 104.902) (layer F.SilkS)
     (effects (font (size 0.5 0.5) (thickness 0.1)))
   )
-  (gr_text BAT+ (at 139.954 100.076) (layer F.SilkS)
+  (gr_text 3v3 (at 139.954 100.076) (layer F.SilkS)
     (effects (font (size 0.5 0.5) (thickness 0.1)))
   )
   (gr_line (start 140.97 98.806) (end 138.557 98.806) (angle 90) (layer F.SilkS) (width 0.2))
@@ -2036,5 +2049,67 @@
   (gr_line (start 133.4 97.75) (end 163.6 97.75) (angle 90) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 133.4 129.35) (end 133.4 97.75) (angle 90) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 163.6 129.35) (end 133.4 129.35) (angle 90) (layer Edge.Cuts) (width 0.1))
+
+  (segment (start 137.5 105.004) (end 136.296 105.004) (width 0.2032) (layer F.Cu) (net 1))
+  (segment (start 136.296 105.004) (end 134.62 106.68) (width 0.2032) (layer F.Cu) (net 1) (tstamp 5282230C))
+  (segment (start 137.5 105.004) (end 137.5 104.816) (width 0.2032) (layer F.Cu) (net 1))
+  (segment (start 137.5 104.816) (end 142.24 100.076) (width 0.2032) (layer F.Cu) (net 1) (tstamp 52822304))
+  (segment (start 142.24 100.076) (end 144.78 100.076) (width 0.2032) (layer F.Cu) (net 1) (tstamp 52822305))
+  (segment (start 144.78 100.076) (end 147.32 100.076) (width 0.2032) (layer F.Cu) (net 1) (tstamp 52822306))
+  (segment (start 147.32 100.076) (end 149.86 100.076) (width 0.2032) (layer F.Cu) (net 1) (tstamp 52822307))
+  (segment (start 149.86 100.076) (end 152.4 100.076) (width 0.2032) (layer F.Cu) (net 1) (tstamp 52822308))
+  (segment (start 152.4 100.076) (end 154.94 100.076) (width 0.2032) (layer F.Cu) (net 1) (tstamp 52822309))
+  (segment (start 134.71 118.87) (end 134.71 116.168) (width 0.2032) (layer F.Cu) (net 2) (status 400000))
+  (segment (start 134.62 110.49) (end 134.62 109.22) (width 0.2032) (layer F.Cu) (net 2) (tstamp 52822388) (status 800000))
+  (segment (start 133.604 111.506) (end 134.62 110.49) (width 0.2032) (layer F.Cu) (net 2) (tstamp 52822384))
+  (segment (start 133.604 115.824) (end 133.604 111.506) (width 0.2032) (layer F.Cu) (net 2) (tstamp 52822381))
+  (segment (start 134.366 115.824) (end 133.604 115.824) (width 0.2032) (layer F.Cu) (net 2) (tstamp 5282237C))
+  (segment (start 134.71 116.168) (end 134.366 115.824) (width 0.2032) (layer F.Cu) (net 2) (tstamp 52822379))
+  (segment (start 134.71 118.87) (end 134.71 120.214) (width 0.2032) (layer F.Cu) (net 2))
+  (segment (start 139.7 125.204) (end 139.7 125.476) (width 0.2032) (layer F.Cu) (net 2) (tstamp 52822310))
+  (segment (start 134.71 120.214) (end 139.7 125.204) (width 0.2032) (layer F.Cu) (net 2) (tstamp 5282230F))
+  (segment (start 139.7 125.476) (end 142.24 128.016) (width 0.2032) (layer F.Cu) (net 2) (tstamp 52822311))
+  (segment (start 142.24 128.016) (end 147.32 128.016) (width 0.2032) (layer F.Cu) (net 2) (tstamp 52822312))
+  (segment (start 147.32 128.016) (end 149.86 128.016) (width 0.2032) (layer F.Cu) (net 2) (tstamp 52822314))
+  (segment (start 149.86 128.016) (end 152.4 128.016) (width 0.2032) (layer F.Cu) (net 2) (tstamp 52822315))
+  (segment (start 152.4 128.016) (end 154.94 128.016) (width 0.2032) (layer F.Cu) (net 2) (tstamp 52822316))
+  (segment (start 137.5 113.004) (end 139.472 113.004) (width 0.2032) (layer F.Cu) (net 3) (status C00000))
+  (segment (start 139.472 113.004) (end 139.7 112.776) (width 0.2032) (layer F.Cu) (net 3) (tstamp 52822325) (status C00000))
+  (segment (start 137.5 113.004) (end 136.476 113.004) (width 0.2032) (layer F.Cu) (net 3) (status 400000))
+  (segment (start 136.476 113.004) (end 134.71 114.77) (width 0.2032) (layer F.Cu) (net 3) (tstamp 52822321) (status 800000))
+  (segment (start 137.5 117.004) (end 138.848 117.004) (width 0.2032) (layer F.Cu) (net 4) (status 400000))
+  (segment (start 138.848 117.004) (end 139.7 117.856) (width 0.2032) (layer F.Cu) (net 4) (tstamp 52822336) (status 800000))
+  (segment (start 137.5 115.004) (end 139.388 115.004) (width 0.2032) (layer F.Cu) (net 5) (status C00000))
+  (segment (start 139.388 115.004) (end 139.7 115.316) (width 0.2032) (layer F.Cu) (net 5) (tstamp 52822333) (status C00000))
+  (segment (start 137.5 111.004) (end 138.932 111.004) (width 0.2032) (layer F.Cu) (net 6) (status 400000))
+  (segment (start 138.932 111.004) (end 139.7 110.236) (width 0.2032) (layer F.Cu) (net 6) (tstamp 52822330) (status 800000))
+  (segment (start 137.5 109.004) (end 138.392 109.004) (width 0.2032) (layer F.Cu) (net 7) (status C00000))
+  (segment (start 138.392 109.004) (end 139.7 107.696) (width 0.2032) (layer F.Cu) (net 7) (tstamp 5282232C) (status C00000))
+  (segment (start 137.5 107.004) (end 137.852 107.004) (width 0.2032) (layer F.Cu) (net 8) (status C00000))
+  (segment (start 137.852 107.004) (end 139.7 105.156) (width 0.2032) (layer F.Cu) (net 8) (tstamp 52822329) (status C00000))
+  (segment (start 137.5 119.004) (end 138.308 119.004) (width 0.2032) (layer F.Cu) (net 9) (status C00000))
+  (segment (start 138.308 119.004) (end 139.7 120.396) (width 0.2032) (layer F.Cu) (net 9) (tstamp 5282233A) (status C00000))
+  (segment (start 137.5 121.004) (end 137.768 121.004) (width 0.2032) (layer F.Cu) (net 10) (status C00000))
+  (segment (start 137.768 121.004) (end 139.7 122.936) (width 0.2032) (layer F.Cu) (net 10) (tstamp 5282233D) (status C00000))
+  (segment (start 159.5 105.004) (end 159.5 104.636) (width 0.2032) (layer F.Cu) (net 11) (status C00000))
+  (segment (start 159.5 104.636) (end 157.48 102.616) (width 0.2032) (layer F.Cu) (net 11) (tstamp 52822359) (status C00000))
+  (segment (start 159.5 107.004) (end 159.328 107.004) (width 0.2032) (layer F.Cu) (net 12) (status C00000))
+  (segment (start 159.328 107.004) (end 157.48 105.156) (width 0.2032) (layer F.Cu) (net 12) (tstamp 52822356) (status C00000))
+  (segment (start 159.5 109.004) (end 158.788 109.004) (width 0.2032) (layer F.Cu) (net 13) (status C00000))
+  (segment (start 158.788 109.004) (end 157.48 107.696) (width 0.2032) (layer F.Cu) (net 13) (tstamp 52822353) (status C00000))
+  (segment (start 159.5 111.004) (end 158.248 111.004) (width 0.2032) (layer F.Cu) (net 14) (status 400000))
+  (segment (start 158.248 111.004) (end 157.48 110.236) (width 0.2032) (layer F.Cu) (net 14) (tstamp 52822351) (status 800000))
+  (segment (start 159.5 113.004) (end 157.708 113.004) (width 0.2032) (layer F.Cu) (net 15) (status C00000))
+  (segment (start 157.708 113.004) (end 157.48 112.776) (width 0.2032) (layer F.Cu) (net 15) (tstamp 5282234E) (status C00000))
+  (segment (start 159.5 115.004) (end 157.792 115.004) (width 0.2032) (layer F.Cu) (net 16) (status C00000))
+  (segment (start 157.792 115.004) (end 157.48 115.316) (width 0.2032) (layer F.Cu) (net 16) (tstamp 5282234C) (status C00000))
+  (segment (start 159.5 117.004) (end 158.332 117.004) (width 0.2032) (layer F.Cu) (net 17) (status 400000))
+  (segment (start 158.332 117.004) (end 157.48 117.856) (width 0.2032) (layer F.Cu) (net 17) (tstamp 52822349) (status 800000))
+  (segment (start 159.5 119.004) (end 158.872 119.004) (width 0.2032) (layer F.Cu) (net 18) (status C00000))
+  (segment (start 158.872 119.004) (end 157.48 120.396) (width 0.2032) (layer F.Cu) (net 18) (tstamp 52822346) (status C00000))
+  (segment (start 159.5 121.004) (end 159.412 121.004) (width 0.2032) (layer F.Cu) (net 19) (status C00000))
+  (segment (start 159.412 121.004) (end 157.48 122.936) (width 0.2032) (layer F.Cu) (net 19) (tstamp 52822343) (status C00000))
+  (segment (start 159.5 123.004) (end 159.5 123.456) (width 0.2032) (layer F.Cu) (net 20) (status C00000))
+  (segment (start 159.5 123.456) (end 157.48 125.476) (width 0.2032) (layer F.Cu) (net 20) (tstamp 52822340) (status C00000))
 
 )
