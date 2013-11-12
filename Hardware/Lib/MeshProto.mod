@@ -1,30 +1,27 @@
-PCBNEW-LibModule-V1  25/10/2013 3:35:20 PM
+PCBNEW-LibModule-V1  12/11/2013 9:02:51 PM
 # encoding utf-8
 Units mm
 $INDEX
-1pin
+_MP_1Pin
 _MP_MountingHole
 _MP_XbeeTH10Pin
 $EndINDEX
-$MODULE 1pin
-Po 0 0 0 15 00200000 00000000 ~~
-Li 1pin
-Cd module 1 pin (ou trou mecanique de percage)
-Kw DEV
+$MODULE _MP_1Pin
+Po 0 0 0 15 5281FCC2 00000000 ~~
+Li _MP_1Pin
 Sc 0
-AR 1pin
+AR 
 Op 0 0 0
-T0 0 -3.048 1.016 1.016 0 0.254 N V 21 N "1PIN"
-T1 0 2.794 1.016 1.016 0 0.254 N I 21 N "P***"
-DC 0 0 0 -2.286 0.381 21
+T0 0 0 1 1 0 0.15 N I 21 N "_MP_1Pin"
+T1 0 0 1 1 0 0.15 N I 21 N "VAL**"
 $PAD
-Sh "1" C 4.064 4.064 0 0 0
-Dr 3.048 0 0
+Sh "1" C 1.85928 1.85928 0 0 0
+Dr 0.8128 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 0 0
 $EndPAD
-$EndMODULE 1pin
+$EndMODULE _MP_1Pin
 $MODULE _MP_MountingHole
 Po 0 0 0 15 5269F118 00000000 ~~
 Li _MP_MountingHole
