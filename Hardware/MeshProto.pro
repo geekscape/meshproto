@@ -1,8 +1,6 @@
-update=12/11/2013 10:27:46 PM
+update=12/11/2013 11:59:26 PM
 version=1
-last_client=eeschema
-[general]
-version=1
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
@@ -91,3 +89,5 @@ LibName30=valves
 LibName31=MeshProto
 LibName32=xbee/module_droids/modules_droids
 LibName33=C:/Users/Hacker/Documents/GitHub/meshthing/Hardware/MeshThing-cache
+[general]
+version=1
