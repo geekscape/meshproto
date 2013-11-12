@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 12/11/2013 9:10:56 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 12/11/2013 11:06:42 PM
 
 BeginCmp
 TimeStamp = /5232A47B;
@@ -572,6 +572,111 @@ TimeStamp = /5281FED7;
 Reference = P80;
 ValeurCmp = CONN_1;
 IdModule  = _MP_1Pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /52820F55;
+Reference = P81;
+ValeurCmp = CONN_1;
+IdModule  = _MP_1Pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /52820F5B;
+Reference = P82;
+ValeurCmp = CONN_1;
+IdModule  = _MP_1Pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /528219E6;
+Reference = P83;
+ValeurCmp = CONN_1;
+IdModule  = _MP_1Pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /528219E0;
+Reference = P84;
+ValeurCmp = CONN_1;
+IdModule  = _MP_1Pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /528219DA;
+Reference = P85;
+ValeurCmp = CONN_1;
+IdModule  = _MP_1Pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /528219D4;
+Reference = P86;
+ValeurCmp = CONN_1;
+IdModule  = _MP_1Pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /528219CE;
+Reference = P87;
+ValeurCmp = CONN_1;
+IdModule  = _MP_1Pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /528219C8;
+Reference = P88;
+ValeurCmp = CONN_1;
+IdModule  = _MP_1Pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /528218DD;
+Reference = P89;
+ValeurCmp = CONN_1;
+IdModule  = _MP_1Pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /528218E3;
+Reference = P90;
+ValeurCmp = CONN_1;
+IdModule  = _MP_1Pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /528218E9;
+Reference = P91;
+ValeurCmp = CONN_1;
+IdModule  = _MP_1Pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /528218EF;
+Reference = P92;
+ValeurCmp = CONN_1;
+IdModule  = _MP_1Pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /528218F5;
+Reference = P93;
+ValeurCmp = CONN_1;
+IdModule  = _MP_1Pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /528218FB;
+Reference = P94;
+ValeurCmp = CONN_1;
+IdModule  = _MP_1Pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /528212C5;
+Reference = SW1;
+ValeurCmp = SPST;
+IdModule  = _MT_TC007-TactileSwitch;
 EndCmp
 
 BeginCmp

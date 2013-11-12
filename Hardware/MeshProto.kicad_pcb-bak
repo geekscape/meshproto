@@ -1,14 +1,14 @@
 (kicad_pcb (version 3) (host pcbnew "(2013-07-07 BZR 4022)-stable")
 
   (general
-    (links 20)
-    (no_connects 20)
-    (area 130.555134 96.9738 167.000422 130.4922)
+    (links 26)
+    (no_connects 26)
+    (area 133.349999 97.699999 163.650001 129.400001)
     (thickness 1.6)
     (drawings 4)
     (tracks 0)
     (zones 0)
-    (modules 67)
+    (modules 102)
     (nets 21)
   )
 
@@ -90,24 +90,24 @@
   (net 0 "")
   (net 1 BAT+)
   (net 2 GND)
-  (net 3 N-0000025)
-  (net 4 N-0000026)
-  (net 5 N-0000027)
-  (net 6 N-0000028)
-  (net 7 N-0000029)
-  (net 8 N-0000030)
-  (net 9 N-0000031)
-  (net 10 N-0000032)
-  (net 11 N-0000033)
-  (net 12 N-0000034)
-  (net 13 N-0000051)
-  (net 14 N-0000071)
-  (net 15 N-0000073)
-  (net 16 N-0000074)
-  (net 17 N-0000075)
-  (net 18 N-0000076)
-  (net 19 N-0000077)
-  (net 20 N-0000078)
+  (net 3 N-0000057)
+  (net 4 N-0000058)
+  (net 5 N-0000059)
+  (net 6 N-0000060)
+  (net 7 N-0000061)
+  (net 8 N-0000062)
+  (net 9 N-0000063)
+  (net 10 N-0000064)
+  (net 11 N-0000065)
+  (net 12 N-0000079)
+  (net 13 N-0000080)
+  (net 14 N-0000081)
+  (net 15 N-0000082)
+  (net 16 N-0000083)
+  (net 17 N-0000084)
+  (net 18 N-0000085)
+  (net 19 N-0000086)
+  (net 20 N-0000087)
 
   (net_class Default "This is the default net class."
     (clearance 0.2032)
@@ -119,28 +119,28 @@
     (add_net "")
     (add_net BAT+)
     (add_net GND)
-    (add_net N-0000025)
-    (add_net N-0000026)
-    (add_net N-0000027)
-    (add_net N-0000028)
-    (add_net N-0000029)
-    (add_net N-0000030)
-    (add_net N-0000031)
-    (add_net N-0000032)
-    (add_net N-0000033)
-    (add_net N-0000034)
-    (add_net N-0000051)
-    (add_net N-0000071)
-    (add_net N-0000073)
-    (add_net N-0000074)
-    (add_net N-0000075)
-    (add_net N-0000076)
-    (add_net N-0000077)
-    (add_net N-0000078)
+    (add_net N-0000057)
+    (add_net N-0000058)
+    (add_net N-0000059)
+    (add_net N-0000060)
+    (add_net N-0000061)
+    (add_net N-0000062)
+    (add_net N-0000063)
+    (add_net N-0000064)
+    (add_net N-0000065)
+    (add_net N-0000079)
+    (add_net N-0000080)
+    (add_net N-0000081)
+    (add_net N-0000082)
+    (add_net N-0000083)
+    (add_net N-0000084)
+    (add_net N-0000085)
+    (add_net N-0000086)
+    (add_net N-0000087)
   )
 
-  (module PIN_ARRAY_1   placed (layer F.Cu) (tedit 4E4E744E) (tstamp 5269EE54)
-    (at 139.7 124.46)
+  (module PIN_ARRAY_1   placed (layer F.Cu) (tedit 4E4E744E) (tstamp 52821811)
+    (at 139.7 125.476)
     (descr "1 pin")
     (tags "CONN DEV")
     (path /5269EB9C)
@@ -165,8 +165,8 @@
     )
   )
 
-  (module PIN_ARRAY_1   placed (layer F.Cu) (tedit 4E4E744E) (tstamp 5269EE5D)
-    (at 139.7 121.92)
+  (module PIN_ARRAY_1   placed (layer F.Cu) (tedit 4E4E744E) (tstamp 5282181B)
+    (at 139.7 122.936)
     (descr "1 pin")
     (tags "CONN DEV")
     (path /5269EB96)
@@ -182,7 +182,7 @@
     (fp_line (start 1.27 -1.27) (end 1.27 1.27) (layer F.SilkS) (width 0.1524))
     (pad 1 thru_hole rect (at 0 0) (size 1.524 1.524) (drill 1.016)
       (layers *.Cu *.Mask F.SilkS)
-      (net 13 N-0000051)
+      (net 18 N-0000085)
     )
     (model pin_array\pin_1.wrl
       (at (xyz 0 0 0))
@@ -191,8 +191,8 @@
     )
   )
 
-  (module PIN_ARRAY_1   placed (layer F.Cu) (tedit 4E4E744E) (tstamp 5269EE66)
-    (at 139.7 119.38)
+  (module PIN_ARRAY_1   placed (layer F.Cu) (tedit 4E4E744E) (tstamp 52821825)
+    (at 139.7 120.396)
     (descr "1 pin")
     (tags "CONN DEV")
     (path /5269EB90)
@@ -208,7 +208,7 @@
     (fp_line (start 1.27 -1.27) (end 1.27 1.27) (layer F.SilkS) (width 0.1524))
     (pad 1 thru_hole rect (at 0 0) (size 1.524 1.524) (drill 1.016)
       (layers *.Cu *.Mask F.SilkS)
-      (net 20 N-0000078)
+      (net 17 N-0000084)
     )
     (model pin_array\pin_1.wrl
       (at (xyz 0 0 0))
@@ -217,8 +217,8 @@
     )
   )
 
-  (module PIN_ARRAY_1   placed (layer F.Cu) (tedit 4E4E744E) (tstamp 5269EE6F)
-    (at 139.7 116.84)
+  (module PIN_ARRAY_1   placed (layer F.Cu) (tedit 4E4E744E) (tstamp 5282182F)
+    (at 139.7 117.856)
     (descr "1 pin")
     (tags "CONN DEV")
     (path /5269EB8A)
@@ -234,7 +234,7 @@
     (fp_line (start 1.27 -1.27) (end 1.27 1.27) (layer F.SilkS) (width 0.1524))
     (pad 1 thru_hole rect (at 0 0) (size 1.524 1.524) (drill 1.016)
       (layers *.Cu *.Mask F.SilkS)
-      (net 14 N-0000071)
+      (net 16 N-0000083)
     )
     (model pin_array\pin_1.wrl
       (at (xyz 0 0 0))
@@ -243,8 +243,8 @@
     )
   )
 
-  (module PIN_ARRAY_1   placed (layer F.Cu) (tedit 4E4E744E) (tstamp 5269EE78)
-    (at 139.7 114.3)
+  (module PIN_ARRAY_1   placed (layer F.Cu) (tedit 4E4E744E) (tstamp 52821839)
+    (at 139.7 115.316)
     (descr "1 pin")
     (tags "CONN DEV")
     (path /5269EB84)
@@ -260,7 +260,7 @@
     (fp_line (start 1.27 -1.27) (end 1.27 1.27) (layer F.SilkS) (width 0.1524))
     (pad 1 thru_hole rect (at 0 0) (size 1.524 1.524) (drill 1.016)
       (layers *.Cu *.Mask F.SilkS)
-      (net 19 N-0000077)
+      (net 15 N-0000082)
     )
     (model pin_array\pin_1.wrl
       (at (xyz 0 0 0))
@@ -269,8 +269,8 @@
     )
   )
 
-  (module PIN_ARRAY_1   placed (layer F.Cu) (tedit 4E4E744E) (tstamp 5269EE81)
-    (at 139.7 111.76)
+  (module PIN_ARRAY_1   placed (layer F.Cu) (tedit 4E4E744E) (tstamp 52821843)
+    (at 139.7 112.776)
     (descr "1 pin")
     (tags "CONN DEV")
     (path /5269EB7E)
@@ -286,7 +286,7 @@
     (fp_line (start 1.27 -1.27) (end 1.27 1.27) (layer F.SilkS) (width 0.1524))
     (pad 1 thru_hole rect (at 0 0) (size 1.524 1.524) (drill 1.016)
       (layers *.Cu *.Mask F.SilkS)
-      (net 18 N-0000076)
+      (net 10 N-0000064)
     )
     (model pin_array\pin_1.wrl
       (at (xyz 0 0 0))
@@ -295,8 +295,8 @@
     )
   )
 
-  (module PIN_ARRAY_1   placed (layer F.Cu) (tedit 4E4E744E) (tstamp 5269EE8A)
-    (at 139.7 109.22)
+  (module PIN_ARRAY_1   placed (layer F.Cu) (tedit 4E4E744E) (tstamp 5282184D)
+    (at 139.7 110.236)
     (descr "1 pin")
     (tags "CONN DEV")
     (path /5269EB78)
@@ -312,7 +312,7 @@
     (fp_line (start 1.27 -1.27) (end 1.27 1.27) (layer F.SilkS) (width 0.1524))
     (pad 1 thru_hole rect (at 0 0) (size 1.524 1.524) (drill 1.016)
       (layers *.Cu *.Mask F.SilkS)
-      (net 17 N-0000075)
+      (net 14 N-0000081)
     )
     (model pin_array\pin_1.wrl
       (at (xyz 0 0 0))
@@ -321,8 +321,8 @@
     )
   )
 
-  (module PIN_ARRAY_1   placed (layer F.Cu) (tedit 4E4E744E) (tstamp 5269EE93)
-    (at 139.7 106.68)
+  (module PIN_ARRAY_1   placed (layer F.Cu) (tedit 4E4E744E) (tstamp 52821857)
+    (at 139.7 107.696)
     (descr "1 pin")
     (tags "CONN DEV")
     (path /5269EB72)
@@ -338,7 +338,7 @@
     (fp_line (start 1.27 -1.27) (end 1.27 1.27) (layer F.SilkS) (width 0.1524))
     (pad 1 thru_hole rect (at 0 0) (size 1.524 1.524) (drill 1.016)
       (layers *.Cu *.Mask F.SilkS)
-      (net 16 N-0000074)
+      (net 13 N-0000080)
     )
     (model pin_array\pin_1.wrl
       (at (xyz 0 0 0))
@@ -347,8 +347,8 @@
     )
   )
 
-  (module PIN_ARRAY_1   placed (layer F.Cu) (tedit 4E4E744E) (tstamp 5269EE9C)
-    (at 139.7 104.14)
+  (module PIN_ARRAY_1   placed (layer F.Cu) (tedit 4E4E744E) (tstamp 52821861)
+    (at 139.7 105.156)
     (descr "1 pin")
     (tags "CONN DEV")
     (path /5269EB6C)
@@ -364,7 +364,7 @@
     (fp_line (start 1.27 -1.27) (end 1.27 1.27) (layer F.SilkS) (width 0.1524))
     (pad 1 thru_hole rect (at 0 0) (size 1.524 1.524) (drill 1.016)
       (layers *.Cu *.Mask F.SilkS)
-      (net 15 N-0000073)
+      (net 12 N-0000079)
     )
     (model pin_array\pin_1.wrl
       (at (xyz 0 0 0))
@@ -373,8 +373,8 @@
     )
   )
 
-  (module PIN_ARRAY_1   placed (layer F.Cu) (tedit 4E4E744E) (tstamp 5269EEA5)
-    (at 139.7 101.6)
+  (module PIN_ARRAY_1   placed (layer F.Cu) (tedit 4E4E744E) (tstamp 5282186B)
+    (at 139.7 102.616)
     (descr "1 pin")
     (tags "CONN DEV")
     (path /5269EB66)
@@ -400,7 +400,7 @@
   )
 
   (module PIN_ARRAY_1   placed (layer F.Cu) (tedit 4E4E744E) (tstamp 5269EEAE)
-    (at 157.48 124.46)
+    (at 157.48 125.476)
     (descr "1 pin")
     (tags "CONN DEV")
     (path /5269EB16)
@@ -416,7 +416,7 @@
     (fp_line (start 1.27 -1.27) (end 1.27 1.27) (layer F.SilkS) (width 0.1524))
     (pad 1 thru_hole rect (at 0 0) (size 1.524 1.524) (drill 1.016)
       (layers *.Cu *.Mask F.SilkS)
-      (net 3 N-0000025)
+      (net 9 N-0000063)
     )
     (model pin_array\pin_1.wrl
       (at (xyz 0 0 0))
@@ -426,7 +426,7 @@
   )
 
   (module PIN_ARRAY_1   placed (layer F.Cu) (tedit 4E4E744E) (tstamp 5269EEB7)
-    (at 157.48 121.92)
+    (at 157.48 122.936)
     (descr "1 pin")
     (tags "CONN DEV")
     (path /5269EB10)
@@ -442,7 +442,7 @@
     (fp_line (start 1.27 -1.27) (end 1.27 1.27) (layer F.SilkS) (width 0.1524))
     (pad 1 thru_hole rect (at 0 0) (size 1.524 1.524) (drill 1.016)
       (layers *.Cu *.Mask F.SilkS)
-      (net 12 N-0000034)
+      (net 8 N-0000062)
     )
     (model pin_array\pin_1.wrl
       (at (xyz 0 0 0))
@@ -452,7 +452,7 @@
   )
 
   (module PIN_ARRAY_1   placed (layer F.Cu) (tedit 4E4E744E) (tstamp 5269EEC0)
-    (at 157.48 119.38)
+    (at 157.48 120.396)
     (descr "1 pin")
     (tags "CONN DEV")
     (path /5269EB0A)
@@ -468,7 +468,7 @@
     (fp_line (start 1.27 -1.27) (end 1.27 1.27) (layer F.SilkS) (width 0.1524))
     (pad 1 thru_hole rect (at 0 0) (size 1.524 1.524) (drill 1.016)
       (layers *.Cu *.Mask F.SilkS)
-      (net 11 N-0000033)
+      (net 7 N-0000061)
     )
     (model pin_array\pin_1.wrl
       (at (xyz 0 0 0))
@@ -478,7 +478,7 @@
   )
 
   (module PIN_ARRAY_1   placed (layer F.Cu) (tedit 4E4E744E) (tstamp 5269EEC9)
-    (at 157.48 116.84)
+    (at 157.48 117.856)
     (descr "1 pin")
     (tags "CONN DEV")
     (path /5269EB04)
@@ -494,7 +494,7 @@
     (fp_line (start 1.27 -1.27) (end 1.27 1.27) (layer F.SilkS) (width 0.1524))
     (pad 1 thru_hole rect (at 0 0) (size 1.524 1.524) (drill 1.016)
       (layers *.Cu *.Mask F.SilkS)
-      (net 10 N-0000032)
+      (net 6 N-0000060)
     )
     (model pin_array\pin_1.wrl
       (at (xyz 0 0 0))
@@ -504,7 +504,7 @@
   )
 
   (module PIN_ARRAY_1   placed (layer F.Cu) (tedit 4E4E744E) (tstamp 5269EED2)
-    (at 157.48 114.3)
+    (at 157.48 115.316)
     (descr "1 pin")
     (tags "CONN DEV")
     (path /5269EAFE)
@@ -520,7 +520,7 @@
     (fp_line (start 1.27 -1.27) (end 1.27 1.27) (layer F.SilkS) (width 0.1524))
     (pad 1 thru_hole rect (at 0 0) (size 1.524 1.524) (drill 1.016)
       (layers *.Cu *.Mask F.SilkS)
-      (net 9 N-0000031)
+      (net 5 N-0000059)
     )
     (model pin_array\pin_1.wrl
       (at (xyz 0 0 0))
@@ -530,7 +530,7 @@
   )
 
   (module PIN_ARRAY_1   placed (layer F.Cu) (tedit 4E4E744E) (tstamp 5269EEDB)
-    (at 157.48 111.76)
+    (at 157.48 112.776)
     (descr "1 pin")
     (tags "CONN DEV")
     (path /5269EAF8)
@@ -546,7 +546,7 @@
     (fp_line (start 1.27 -1.27) (end 1.27 1.27) (layer F.SilkS) (width 0.1524))
     (pad 1 thru_hole rect (at 0 0) (size 1.524 1.524) (drill 1.016)
       (layers *.Cu *.Mask F.SilkS)
-      (net 8 N-0000030)
+      (net 4 N-0000058)
     )
     (model pin_array\pin_1.wrl
       (at (xyz 0 0 0))
@@ -556,7 +556,7 @@
   )
 
   (module PIN_ARRAY_1   placed (layer F.Cu) (tedit 4E4E744E) (tstamp 5269EEE4)
-    (at 157.48 109.22)
+    (at 157.48 110.236)
     (descr "1 pin")
     (tags "CONN DEV")
     (path /5269EAF2)
@@ -572,7 +572,7 @@
     (fp_line (start 1.27 -1.27) (end 1.27 1.27) (layer F.SilkS) (width 0.1524))
     (pad 1 thru_hole rect (at 0 0) (size 1.524 1.524) (drill 1.016)
       (layers *.Cu *.Mask F.SilkS)
-      (net 7 N-0000029)
+      (net 3 N-0000057)
     )
     (model pin_array\pin_1.wrl
       (at (xyz 0 0 0))
@@ -582,7 +582,7 @@
   )
 
   (module PIN_ARRAY_1   placed (layer F.Cu) (tedit 4E4E744E) (tstamp 5269EEED)
-    (at 157.48 106.68)
+    (at 157.48 107.696)
     (descr "1 pin")
     (tags "CONN DEV")
     (path /5269EAEC)
@@ -598,7 +598,7 @@
     (fp_line (start 1.27 -1.27) (end 1.27 1.27) (layer F.SilkS) (width 0.1524))
     (pad 1 thru_hole rect (at 0 0) (size 1.524 1.524) (drill 1.016)
       (layers *.Cu *.Mask F.SilkS)
-      (net 6 N-0000028)
+      (net 11 N-0000065)
     )
     (model pin_array\pin_1.wrl
       (at (xyz 0 0 0))
@@ -608,7 +608,7 @@
   )
 
   (module PIN_ARRAY_1   placed (layer F.Cu) (tedit 4E4E744E) (tstamp 5269EEF6)
-    (at 157.48 104.14)
+    (at 157.48 105.156)
     (descr "1 pin")
     (tags "CONN DEV")
     (path /5269EAE6)
@@ -624,7 +624,7 @@
     (fp_line (start 1.27 -1.27) (end 1.27 1.27) (layer F.SilkS) (width 0.1524))
     (pad 1 thru_hole rect (at 0 0) (size 1.524 1.524) (drill 1.016)
       (layers *.Cu *.Mask F.SilkS)
-      (net 5 N-0000027)
+      (net 20 N-0000087)
     )
     (model pin_array\pin_1.wrl
       (at (xyz 0 0 0))
@@ -634,7 +634,7 @@
   )
 
   (module PIN_ARRAY_1   placed (layer F.Cu) (tedit 4E4E744E) (tstamp 5269EEFF)
-    (at 157.48 101.6)
+    (at 157.48 102.616)
     (descr "1 pin")
     (tags "CONN DEV")
     (path /5269EA8F)
@@ -650,7 +650,7 @@
     (fp_line (start 1.27 -1.27) (end 1.27 1.27) (layer F.SilkS) (width 0.1524))
     (pad 1 thru_hole rect (at 0 0) (size 1.524 1.524) (drill 1.016)
       (layers *.Cu *.Mask F.SilkS)
-      (net 4 N-0000026)
+      (net 19 N-0000086)
     )
     (model pin_array\pin_1.wrl
       (at (xyz 0 0 0))
@@ -751,35 +751,35 @@
     )
     (pad 2 thru_hole circle (at 0 -7) (size 1.85928 1.85928) (drill 0.8128)
       (layers *.Cu *.Mask F.SilkS)
-      (net 15 N-0000073)
+      (net 12 N-0000079)
     )
     (pad 3 thru_hole circle (at 0 -5) (size 1.85928 1.85928) (drill 0.8128)
       (layers *.Cu *.Mask F.SilkS)
-      (net 16 N-0000074)
+      (net 13 N-0000080)
     )
     (pad 4 thru_hole circle (at 0 -3) (size 1.85928 1.85928) (drill 0.8128)
       (layers *.Cu *.Mask F.SilkS)
-      (net 17 N-0000075)
+      (net 14 N-0000081)
     )
     (pad 5 thru_hole circle (at 0 -1) (size 1.85928 1.85928) (drill 0.8128)
       (layers *.Cu *.Mask F.SilkS)
-      (net 18 N-0000076)
+      (net 10 N-0000064)
     )
     (pad 6 thru_hole circle (at 0 1) (size 1.85928 1.85928) (drill 0.8128)
       (layers *.Cu *.Mask F.SilkS)
-      (net 19 N-0000077)
+      (net 15 N-0000082)
     )
     (pad 7 thru_hole circle (at 0 3) (size 1.85928 1.85928) (drill 0.8128)
       (layers *.Cu *.Mask F.SilkS)
-      (net 14 N-0000071)
+      (net 16 N-0000083)
     )
     (pad 8 thru_hole circle (at 0 5) (size 1.85928 1.85928) (drill 0.8128)
       (layers *.Cu *.Mask F.SilkS)
-      (net 20 N-0000078)
+      (net 17 N-0000084)
     )
     (pad 9 thru_hole circle (at 0 7) (size 1.85928 1.85928) (drill 0.8128)
       (layers *.Cu *.Mask F.SilkS)
-      (net 13 N-0000051)
+      (net 18 N-0000085)
     )
     (pad 10 thru_hole circle (at 0 9) (size 1.85928 1.85928) (drill 0.8128)
       (layers *.Cu *.Mask F.SilkS)
@@ -803,43 +803,43 @@
     (fp_line (start -1.2 -10.25) (end 1.2 -10.25) (layer F.SilkS) (width 0.15))
     (pad 1 thru_hole circle (at 0 -9 180) (size 1.85928 1.85928) (drill 0.8128)
       (layers *.Cu *.Mask F.SilkS)
-      (net 3 N-0000025)
+      (net 9 N-0000063)
     )
     (pad 2 thru_hole circle (at 0 -7 180) (size 1.85928 1.85928) (drill 0.8128)
       (layers *.Cu *.Mask F.SilkS)
-      (net 12 N-0000034)
+      (net 8 N-0000062)
     )
     (pad 3 thru_hole circle (at 0 -5 180) (size 1.85928 1.85928) (drill 0.8128)
       (layers *.Cu *.Mask F.SilkS)
-      (net 11 N-0000033)
+      (net 7 N-0000061)
     )
     (pad 4 thru_hole circle (at 0 -3 180) (size 1.85928 1.85928) (drill 0.8128)
       (layers *.Cu *.Mask F.SilkS)
-      (net 10 N-0000032)
+      (net 6 N-0000060)
     )
     (pad 5 thru_hole circle (at 0 -1 180) (size 1.85928 1.85928) (drill 0.8128)
       (layers *.Cu *.Mask F.SilkS)
-      (net 9 N-0000031)
+      (net 5 N-0000059)
     )
     (pad 6 thru_hole circle (at 0 1 180) (size 1.85928 1.85928) (drill 0.8128)
       (layers *.Cu *.Mask F.SilkS)
-      (net 8 N-0000030)
+      (net 4 N-0000058)
     )
     (pad 7 thru_hole circle (at 0 3 180) (size 1.85928 1.85928) (drill 0.8128)
       (layers *.Cu *.Mask F.SilkS)
-      (net 7 N-0000029)
+      (net 3 N-0000057)
     )
     (pad 8 thru_hole circle (at 0 5 180) (size 1.85928 1.85928) (drill 0.8128)
       (layers *.Cu *.Mask F.SilkS)
-      (net 6 N-0000028)
+      (net 11 N-0000065)
     )
     (pad 9 thru_hole circle (at 0 7 180) (size 1.85928 1.85928) (drill 0.8128)
       (layers *.Cu *.Mask F.SilkS)
-      (net 5 N-0000027)
+      (net 20 N-0000087)
     )
     (pad 10 thru_hole circle (at 0 9 180) (size 1.85928 1.85928) (drill 0.8128)
       (layers *.Cu *.Mask F.SilkS)
-      (net 4 N-0000026)
+      (net 19 N-0000086)
     )
   )
 
@@ -927,7 +927,7 @@
   )
 
   (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5281FD46)
-    (at 154.94 124.46)
+    (at 154.94 125.476)
     (path /5281F62F)
     (fp_text reference P59 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -941,7 +941,7 @@
   )
 
   (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5281FD4B)
-    (at 152.4 124.46)
+    (at 152.4 125.476)
     (path /5281F5F9)
     (fp_text reference P50 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -955,7 +955,7 @@
   )
 
   (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5281FD50)
-    (at 149.86 124.46)
+    (at 149.86 125.476)
     (path /5281F5FF)
     (fp_text reference P51 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -969,7 +969,7 @@
   )
 
   (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5281FD55)
-    (at 149.86 121.92)
+    (at 149.86 122.936)
     (path /5281F605)
     (fp_text reference P52 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -983,7 +983,7 @@
   )
 
   (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5281FD5A)
-    (at 147.32 121.92)
+    (at 147.32 122.936)
     (path /5281F60B)
     (fp_text reference P53 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -997,7 +997,7 @@
   )
 
   (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5281FD5F)
-    (at 147.32 124.46)
+    (at 147.32 125.476)
     (path /5281F611)
     (fp_text reference P54 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1011,7 +1011,7 @@
   )
 
   (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5281FD64)
-    (at 144.78 121.92)
+    (at 144.78 122.936)
     (path /5281F617)
     (fp_text reference P55 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1025,7 +1025,7 @@
   )
 
   (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5281FD69)
-    (at 142.24 121.92)
+    (at 142.24 122.936)
     (path /5281F61D)
     (fp_text reference P56 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1039,7 +1039,7 @@
   )
 
   (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5281FD6E)
-    (at 142.24 124.46)
+    (at 142.24 125.476)
     (path /5281F623)
     (fp_text reference P57 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1053,7 +1053,7 @@
   )
 
   (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5281FD73)
-    (at 144.78 124.46)
+    (at 144.78 125.476)
     (path /5281F629)
     (fp_text reference P58 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1067,7 +1067,7 @@
   )
 
   (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5281FD78)
-    (at 154.94 119.38)
+    (at 154.94 120.396)
     (path /5281F5F3)
     (fp_text reference P49 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1081,7 +1081,7 @@
   )
 
   (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5281FD7D)
-    (at 152.4 119.38)
+    (at 152.4 120.396)
     (path /5281F635)
     (fp_text reference P60 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1095,7 +1095,7 @@
   )
 
   (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5281FD82)
-    (at 149.86 119.38)
+    (at 149.86 120.396)
     (path /5281F64D)
     (fp_text reference P24 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1109,7 +1109,7 @@
   )
 
   (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5281FD87)
-    (at 147.32 119.38)
+    (at 147.32 120.396)
     (path /5281F653)
     (fp_text reference P25 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1123,7 +1123,7 @@
   )
 
   (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5281FD8C)
-    (at 144.78 119.38)
+    (at 144.78 120.396)
     (path /5281F659)
     (fp_text reference P26 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1137,7 +1137,7 @@
   )
 
   (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5281FD91)
-    (at 142.24 119.38)
+    (at 142.24 120.396)
     (path /5281F65F)
     (fp_text reference P27 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1151,7 +1151,7 @@
   )
 
   (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5281FD96)
-    (at 154.94 116.84)
+    (at 154.94 117.856)
     (path /5281F665)
     (fp_text reference P28 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1165,7 +1165,7 @@
   )
 
   (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5281FD9B)
-    (at 147.32 116.84)
+    (at 147.32 117.856)
     (path /5281F66B)
     (fp_text reference P29 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1179,7 +1179,7 @@
   )
 
   (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5281FEEE)
-    (at 154.94 111.76)
+    (at 154.94 112.776)
     (path /5281F671)
     (fp_text reference P30 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1193,7 +1193,7 @@
   )
 
   (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5281FF0C)
-    (at 142.24 109.22)
+    (at 142.24 110.236)
     (path /5281F5BD)
     (fp_text reference P40 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1207,7 +1207,7 @@
   )
 
   (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5281FDAA)
-    (at 147.32 111.76)
+    (at 147.32 112.776)
     (path /5281F589)
     (fp_text reference P32 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1221,7 +1221,7 @@
   )
 
   (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5281FDAF)
-    (at 144.78 111.76)
+    (at 144.78 112.776)
     (path /5281F593)
     (fp_text reference P33 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1235,7 +1235,7 @@
   )
 
   (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5281FF00)
-    (at 147.32 109.22)
+    (at 147.32 110.236)
     (path /5281F599)
     (fp_text reference P34 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1249,7 +1249,7 @@
   )
 
   (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5281FF06)
-    (at 144.78 109.22)
+    (at 144.78 110.236)
     (path /5281F59F)
     (fp_text reference P35 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1263,7 +1263,7 @@
   )
 
   (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5281FDBE)
-    (at 144.78 116.84)
+    (at 144.78 117.856)
     (path /5281F5A5)
     (fp_text reference P36 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1277,7 +1277,7 @@
   )
 
   (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5281FEF4)
-    (at 152.4 111.76)
+    (at 152.4 112.776)
     (path /5281F5AB)
     (fp_text reference P37 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1291,7 +1291,7 @@
   )
 
   (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5281FDC8)
-    (at 149.86 111.76)
+    (at 149.86 112.776)
     (path /5281F5B1)
     (fp_text reference P38 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1305,7 +1305,7 @@
   )
 
   (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5281FDCD)
-    (at 152.4 116.84)
+    (at 152.4 117.856)
     (path /5281F5B7)
     (fp_text reference P39 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1319,7 +1319,7 @@
   )
 
   (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5281FDD2)
-    (at 142.24 111.76)
+    (at 142.24 112.776)
     (path /5281F578)
     (fp_text reference P31 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1333,7 +1333,7 @@
   )
 
   (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5281FDD7)
-    (at 149.86 116.84)
+    (at 149.86 117.856)
     (path /5281F5C3)
     (fp_text reference P41 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1347,7 +1347,7 @@
   )
 
   (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5281FDDC)
-    (at 142.24 116.84)
+    (at 142.24 117.856)
     (path /5281F5C9)
     (fp_text reference P42 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1361,7 +1361,7 @@
   )
 
   (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5281FDE1)
-    (at 154.94 114.3)
+    (at 154.94 115.316)
     (path /5281F5CF)
     (fp_text reference P43 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1375,7 +1375,7 @@
   )
 
   (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5281FEFA)
-    (at 149.86 109.22)
+    (at 149.86 110.236)
     (path /5281F5D5)
     (fp_text reference P44 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1389,7 +1389,7 @@
   )
 
   (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5281FDEB)
-    (at 149.86 114.3)
+    (at 149.86 115.316)
     (path /5281F5DB)
     (fp_text reference P45 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1403,7 +1403,7 @@
   )
 
   (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5281FDF0)
-    (at 142.24 114.3)
+    (at 142.24 115.316)
     (path /5281F5E1)
     (fp_text reference P46 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1417,7 +1417,7 @@
   )
 
   (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5281FDF5)
-    (at 152.4 114.3)
+    (at 152.4 115.316)
     (path /5281F5E7)
     (fp_text reference P47 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1431,7 +1431,7 @@
   )
 
   (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5281FDFA)
-    (at 144.78 114.3)
+    (at 144.78 115.316)
     (path /5281F5ED)
     (fp_text reference P48 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1445,7 +1445,7 @@
   )
 
   (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5281F78C)
-    (at 154.94 121.92)
+    (at 154.94 122.936)
     (path /5281F647)
     (fp_text reference P23 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1459,7 +1459,7 @@
   )
 
   (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5281F792)
-    (at 152.4 121.92)
+    (at 152.4 122.936)
     (path /5281F641)
     (fp_text reference P22 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1473,7 +1473,7 @@
   )
 
   (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5281FB72)
-    (at 147.32 114.3)
+    (at 147.32 115.316)
     (path /5281F63B)
     (fp_text reference P21 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1483,6 +1483,517 @@
     )
     (pad 1 thru_hole circle (at 0 0) (size 1.85928 1.85928) (drill 0.8128)
       (layers *.Cu *.Mask F.SilkS)
+    )
+  )
+
+  (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5281FEC1)
+    (at 152.4 110.236)
+    (path /5281FEA1)
+    (fp_text reference P71 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value CONN_1 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.85928 1.85928) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+  )
+
+  (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5281FEC6)
+    (at 144.78 105.156)
+    (path /5281FED7)
+    (fp_text reference P80 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value CONN_1 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.85928 1.85928) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+  )
+
+  (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5281FECB)
+    (at 152.4 102.616)
+    (path /5281FED1)
+    (fp_text reference P79 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value CONN_1 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.85928 1.85928) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+  )
+
+  (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5281FED0)
+    (at 147.32 102.616)
+    (path /5281FECB)
+    (fp_text reference P78 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value CONN_1 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.85928 1.85928) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+  )
+
+  (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5281FED5)
+    (at 142.24 102.616)
+    (path /5281FEC5)
+    (fp_text reference P77 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value CONN_1 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.85928 1.85928) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+  )
+
+  (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5281FEDA)
+    (at 142.24 105.156)
+    (path /5281FEBF)
+    (fp_text reference P76 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value CONN_1 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.85928 1.85928) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+  )
+
+  (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5281FEDF)
+    (at 142.24 107.696)
+    (path /5281FEB9)
+    (fp_text reference P75 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value CONN_1 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.85928 1.85928) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+  )
+
+  (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5281FEE4)
+    (at 154.94 110.236)
+    (path /5281FEB3)
+    (fp_text reference P74 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value CONN_1 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.85928 1.85928) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+  )
+
+  (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5281FEE9)
+    (at 147.32 105.156)
+    (path /5281FEAD)
+    (fp_text reference P73 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value CONN_1 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.85928 1.85928) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+  )
+
+  (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5281FEEE)
+    (at 154.94 102.616)
+    (path /5281FEA7)
+    (fp_text reference P72 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value CONN_1 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.85928 1.85928) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+  )
+
+  (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5281FEF3)
+    (at 144.78 102.616)
+    (path /5281FE41)
+    (fp_text reference P61 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value CONN_1 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.85928 1.85928) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+  )
+
+  (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5281FEF8)
+    (at 149.86 105.156)
+    (path /5281FE9B)
+    (fp_text reference P70 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value CONN_1 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.85928 1.85928) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+  )
+
+  (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5281FEFD)
+    (at 152.4 105.156)
+    (path /5281FE95)
+    (fp_text reference P69 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value CONN_1 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.85928 1.85928) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+  )
+
+  (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5281FF02)
+    (at 144.78 107.696)
+    (path /5281FE8F)
+    (fp_text reference P68 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value CONN_1 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.85928 1.85928) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+  )
+
+  (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5281FF07)
+    (at 154.94 105.156)
+    (path /5281FE89)
+    (fp_text reference P67 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value CONN_1 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.85928 1.85928) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+  )
+
+  (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5281FF0C)
+    (at 154.94 107.696)
+    (path /5281FE83)
+    (fp_text reference P66 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value CONN_1 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.85928 1.85928) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+  )
+
+  (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5281FF11)
+    (at 149.86 102.616)
+    (path /5281FE7D)
+    (fp_text reference P65 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value CONN_1 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.85928 1.85928) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+  )
+
+  (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5281FF16)
+    (at 149.86 107.696)
+    (path /5281FE77)
+    (fp_text reference P64 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value CONN_1 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.85928 1.85928) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+  )
+
+  (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5281FF1B)
+    (at 147.32 107.696)
+    (path /5281FE71)
+    (fp_text reference P63 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value CONN_1 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.85928 1.85928) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+  )
+
+  (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5281FF20)
+    (at 152.4 107.696)
+    (path /5281FE6B)
+    (fp_text reference P62 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value CONN_1 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.85928 1.85928) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+  )
+
+  (module _MT_TC007-TactileSwitch (layer F.Cu) (tedit 525F43A8) (tstamp 52821292)
+    (at 134.71 116.82 270)
+    (path /528212C5)
+    (fp_text reference SW1 (at -2.04 0 360) (layer F.SilkS)
+      (effects (font (size 0.75 0.75) (thickness 0.15)))
+    )
+    (fp_text value SPST (at -0.01 -2.42 270) (layer F.SilkS) hide
+      (effects (font (size 1.5 1.5) (thickness 0.15)))
+    )
+    (fp_line (start -1.95 1.45) (end -1.95 0.73) (layer F.SilkS) (width 0.15))
+    (fp_line (start 1.95 1.45) (end 1.95 0.73) (layer F.SilkS) (width 0.15))
+    (fp_line (start -1.95 1.45) (end 1.95 1.45) (layer F.SilkS) (width 0.15))
+    (fp_line (start -1.95 -1.44) (end -1.95 -0.73) (layer F.SilkS) (width 0.15))
+    (fp_line (start -1.95 -1.45) (end 1.95 -1.45) (layer F.SilkS) (width 0.15))
+    (fp_line (start 1.95 -1.45) (end 1.95 -0.73) (layer F.SilkS) (width 0.15))
+    (pad 1 smd rect (at -2.05 0 270) (size 0.9 1.3)
+      (layers F.Cu F.Paste F.Mask)
+      (net 10 N-0000064)
+    )
+    (pad 2 smd rect (at 2.05 0 270) (size 0.9 1.3)
+      (layers F.Cu F.Paste F.Mask)
+      (net 2 GND)
+    )
+    (pad "" thru_hole rect (at 0 0.9 270) (size 0.7 0.7) (drill 0.7)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+    (pad "" thru_hole rect (at -0.01 -0.9 270) (size 0.7 0.7) (drill 0.7)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+  )
+
+  (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 52821297)
+    (at 134.62 106.68)
+    (path /52820F55)
+    (fp_text reference P81 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value CONN_1 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.85928 1.85928) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 1 BAT+)
+    )
+  )
+
+  (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5282129C)
+    (at 134.62 109.22)
+    (path /52820F5B)
+    (fp_text reference P82 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value CONN_1 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.85928 1.85928) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 2 GND)
+    )
+  )
+
+  (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5282194C)
+    (at 128.27 99.06)
+    (path /528218DD)
+    (fp_text reference P89 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value CONN_1 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.85928 1.85928) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+  )
+
+  (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 52821951)
+    (at 128.27 114.3)
+    (path /528218E3)
+    (fp_text reference P90 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value CONN_1 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.85928 1.85928) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+  )
+
+  (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 52821956)
+    (at 127 125.73)
+    (path /528218E9)
+    (fp_text reference P91 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value CONN_1 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.85928 1.85928) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+  )
+
+  (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5282195B)
+    (at 157.48 130.81)
+    (path /528218EF)
+    (fp_text reference P92 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value CONN_1 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.85928 1.85928) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+  )
+
+  (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 52821960)
+    (at 151.13 130.81)
+    (path /528218F5)
+    (fp_text reference P93 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value CONN_1 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.85928 1.85928) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+  )
+
+  (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 52821965)
+    (at 148.59 130.81)
+    (path /528218FB)
+    (fp_text reference P94 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value CONN_1 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.85928 1.85928) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 2 GND)
+    )
+  )
+
+  (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5282196A)
+    (at 160.02 130.81)
+    (path /528219C8)
+    (fp_text reference P88 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value CONN_1 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.85928 1.85928) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+  )
+
+  (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5282196F)
+    (at 153.67 130.81)
+    (path /528219CE)
+    (fp_text reference P87 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value CONN_1 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.85928 1.85928) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+  )
+
+  (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 52821974)
+    (at 165.1 132.08)
+    (path /528219D4)
+    (fp_text reference P86 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value CONN_1 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.85928 1.85928) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+  )
+
+  (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 52821979)
+    (at 162.56 133.35)
+    (path /528219DA)
+    (fp_text reference P85 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value CONN_1 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.85928 1.85928) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+  )
+
+  (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 5282197E)
+    (at 158.75 133.35)
+    (path /528219E0)
+    (fp_text reference P84 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value CONN_1 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.85928 1.85928) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+  )
+
+  (module _MP_1Pin (layer F.Cu) (tedit 5281FCC2) (tstamp 52821983)
+    (at 146.05 130.81)
+    (path /528219E6)
+    (fp_text reference P83 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value CONN_1 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.85928 1.85928) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 1 BAT+)
     )
   )
 
