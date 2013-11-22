@@ -1,3 +1,4 @@
 (fp_lib_table
-  (lib (name OSHWLogo)(type Legacy)(uri /home/bob/Git/MeshAge/meshproto/Hardware/Lib/OSHW.emp)(options "")(descr ""))
+  (lib (name OSHWLogo)(type Legacy)(uri ${KIPRJMOD}/Lib/OSHW.emp)(options "")(descr ""))
+  (lib (name _MP_)(type Legacy)(uri ${KIPRJMOD}/Lib/MeshProto.mod)(options "")(descr ""))
 )
