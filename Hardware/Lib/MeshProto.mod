@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Wed 27 Nov 2013 13:38:32 EST
+PCBNEW-LibModule-V1  Thu 05 Dec 2013 16:24:19 EST
 # encoding utf-8
 Units mm
 $INDEX
@@ -11,7 +11,7 @@ _MP_XbeeTH10Pin
 _MP_XbeeTH10Pin-SilkMod
 $EndINDEX
 $MODULE _MP_1Pin
-Po 0 0 0 15 5281FCC2 00000000 ~~
+Po 0 0 0 15 52A00D6F 00000000 ~~
 Li _MP_1Pin
 Sc 0
 AR 
@@ -20,7 +20,7 @@ T0 0 0 1 1 0 0.15 N I 21 N "_MP_1Pin"
 T1 0 0 1 1 0 0.15 N I 21 N "VAL**"
 $PAD
 Sh "1" C 1.85928 1.85928 0 0 0
-Dr 0.8128 0 0
+Dr 1.016 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 0 0
