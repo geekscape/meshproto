@@ -3,7 +3,7 @@
   (general
     (links 36)
     (no_connects 0)
-    (area 133.099999 97.699999 164.000001 129.400001)
+    (area 129.261801 96.5166 165.135343 130.6954)
     (thickness 1.6)
     (drawings 33)
     (tracks 84)
@@ -1829,7 +1829,7 @@
   (gr_text meshthing.com (at 162.25 115.87 90) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text "MeshProto v1.0\n©David Chanter \nBob Powers, Andy Gelme" (at 162.165 103.66 90) (layer B.SilkS) (tstamp 52955C37)
+  (gr_text "MeshProto v1.1\n©David Chanter \nBob Powers, Andy Gelme" (at 162.165 103.66 90) (layer B.SilkS) (tstamp 52955C37)
     (effects (font (size 0.65 0.65) (thickness 0.1)) (justify left mirror))
   )
   (gr_text ↑ (at 162.8394 106.35) (layer F.SilkS)
