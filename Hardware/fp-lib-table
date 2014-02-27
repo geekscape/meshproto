@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name OSHWLogo)(type Legacy)(uri ${KIPRJMOD}/Lib/OSHW.emp)(options "")(descr ""))
   (lib (name _MP_)(type Legacy)(uri ${KIPRJMOD}/Lib/MeshProto.mod)(options "")(descr ""))
+  (lib (name _M9Logo_)(type Legacy)(uri ${KIPRJMOD}/Lib/M9Logo/M9Logo-2mm.mod)(options "")(descr ""))
 )
