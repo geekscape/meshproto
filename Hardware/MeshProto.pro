@@ -1,6 +1,6 @@
-update=12/11/2013 11:59:26 PM
+update=Thu 27 Feb 2014 14:40:04 EST
 version=1
-last_client=kicad
+last_client=eeschema
 [cvpcb]
 version=1
 NetIExt=net
@@ -47,8 +47,13 @@ LibName17=Lib/xbee/XBee/XBee
 LibName18=Lib/MeshUSB
 LibName19=Lib/MeshProto
 LibName20=C:/Users/Hacker/Documents/GitHub/meshthing/Hardware/Lib/MeshThing
+[general]
+version=1
 [eeschema]
 version=1
+PageLayoutDescrFile=
+SubpartIdSeparator=0
+SubpartFirstId=65
 LibDir=Lib
 NetFmtName=
 RptD_X=0
@@ -88,6 +93,5 @@ LibName29=contrib
 LibName30=valves
 LibName31=MeshProto
 LibName32=xbee/module_droids/modules_droids
-LibName33=C:/Users/Hacker/Documents/GitHub/meshthing/Hardware/MeshThing-cache
-[general]
-version=1
+LibName33=/home/bob/Git/MeshAge/meshthing/Hardware/MeshThing
+LibName34=MeshUSB
